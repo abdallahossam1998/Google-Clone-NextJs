@@ -3,7 +3,7 @@ import React from 'react'
 
 const Avatar = ({ url, className }) => {
   return (
-    <Image
+    <img
       loading='lazy'
       src={url}
       alt='Profile picture'
