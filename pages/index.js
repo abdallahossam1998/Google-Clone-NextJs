@@ -56,6 +56,7 @@ export default function Home() {
           src='https://www.google.com.eg/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'
           height={100}
           width={300}
+          alt='Google'
         />
 
         <div
@@ -79,8 +80,9 @@ export default function Home() {
           <button onClick={search} className='btn'>
             Google Search
           </button>
+
           <button onClick={search} className='btn'>
-            I'm Feeling Lucky
+            I am Feeling Lucky
           </button>
         </div>
       </form>
